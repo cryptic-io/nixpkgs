@@ -1325,6 +1325,8 @@ in
 
   gomatrix = callPackage ../applications/misc/gomatrix { };
 
+  gomobile = callPackage ../applications/misc/gomobile { };
+
   gopacked = callPackage ../applications/misc/gopacked { };
 
   gucci = callPackage ../tools/text/gucci { };

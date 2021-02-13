@@ -352,6 +352,10 @@ lib.mapAttrs (n: v: v // { shortName = n; }) {
     free = false;
   };
 
+  golang = {
+    url = "https://golang.org/LICENSE";
+  };
+
   gpl1Only = spdx {
     spdxId = "GPL-1.0-only";
     fullName = "GNU General Public License v1.0 only";
